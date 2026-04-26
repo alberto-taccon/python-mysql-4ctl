@@ -28,7 +28,7 @@ Aprire un terminale ed eseguire il seguente comando:
 ```bash
 ssh -N -L 3307:localhost:3306 [nome_utente_database]@lab.alberghetti.cloud
 ```
-Sostituire con il proprio nome utente phpmyadmin e quando richiesto, inserire la password.
+Attenzione: per il tunnel SSH  va usato il nome utente del database SENZA INCLUDERE IL PREFISSO DELLA CLASSE ("4CTL_"). 
 
 Il terminale deve rimanere aperto durante l'esecuzione dei file Python.
 
