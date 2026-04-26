@@ -26,7 +26,7 @@ Questi script creano e popolano le tabelle del negozio che abbiamo già utilizza
 Aprire un terminale ed eseguire il seguente comando:
 
 ```bash
-ssh -N -L 3307:localhost:3306 [nome_utente_database]@lab.alberghetti.cloud
+ssh -N -L 3307:localhost:3306 [nome_utente_server]@lab.alberghetti.cloud
 ```
 Attenzione: per il tunnel SSH  va usato il nome utente del database SENZA INCLUDERE IL PREFISSO DELLA CLASSE ("4CTL_"). 
 
